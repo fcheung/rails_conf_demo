@@ -1,0 +1,17 @@
+#content_wrapper {
+  position: absolute;
+  right: 50%;
+  left: 0%;
+  margin: 1ex;
+}
+
+#comment_wrapper {
+  position: absolute;
+  left: 50%;
+  right: 0%;
+  margin: 1ex;
+}
+
+textarea {
+  width: 100%;
+}

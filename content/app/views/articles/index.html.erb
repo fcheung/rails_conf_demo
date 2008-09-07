@@ -1,0 +1,10 @@
+<ul>
+  <% for article in @articles %>
+    <li id="<%= dom_id article%>"> <%= h article.title %>
+      <%= link_to_widget_function 'Show', 'show', article.id%>
+      
+      </li>
+  <% end %>
+</ul>
+
+<%= link_to_widget_function 'New article', 'create'%>

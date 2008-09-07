@@ -1,0 +1,17 @@
+<div class="editor">
+  <div class="errors"></div>
+  <% form_for(@article, :html =>{:onSubmit => "Widget.forElement(this).submit(); return false"}) do |f|%>
+    <p>
+      <%= f.label :title %><br />
+      <%= f.text_field :title %>
+    </p>
+    <p>
+      <%= f.label :body %><br />
+      <%= f.text_area :body %>
+    </p>
+    <p>
+      <%= f.submit "Create" %>
+    </p>
+  <% end %>
+  <%= link_to_widget_function 'Back', "back()"%>
+</div>

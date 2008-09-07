@@ -1,0 +1,9 @@
+<% form_for :comment, :html => {:onSubmit => "Widget.forElement(this).post(); return false"} do %>
+  <%= text_field_tag :comment %>
+ <%= submit_tag %>
+<% end %>
+<ul>
+<% @comments.each do | comment| %>
+  <li><%= h comment.body%> </li>
+<% end %>
+</ul>
