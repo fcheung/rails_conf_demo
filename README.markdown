@@ -15,9 +15,9 @@ Rake Tasks
 
 Three rake tasks are available:
 
-rake start\_all #Starts all the servers on appropriate ports
-rake stop\_all #Kills them all
-rake migrate\_all #Runs the migrations in each app
+* rake start\_all #Starts all the servers on appropriate ports
+* rake stop\_all #Kills them all
+* rake migrate\_all #Runs the migrations in each app
 
 Running the Sample
 ===================
