@@ -51,7 +51,7 @@ What is Where
 * container/public/javascripts/portal.js: javascript initializer file: creates the widgets initially visible
 * content/public/javascripts/content.js: javascript provided by the content application
 * comment/public/javascripts/comment.js: javascript provided by the comment application
-* shared\_plugins: plugins loaded
+* shared\_plugins: plugins loaded by all the applications
 
 
 This software is released under the MIT License. (c) Re5ult Ltd 2008
