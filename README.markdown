@@ -32,6 +32,7 @@ Running the Sample
   On windows machine add it to c:\windows\system32\drivers\etc\hosts
   
 2. Setup Apache
+
   The demo.conf file at the root of this project contains an example configuration. On Mac OS X 10.5 you can just drop this in /etc/apache2/other
   Don't forget to restart apache afterwards!
 
