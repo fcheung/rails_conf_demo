@@ -23,8 +23,10 @@ Running the Sample
 ===================
 
 1. Create the appropriate hosts
-  You'll need 1 hosts: container.demo.local
+
+  You'll need 1 host: container.demo.local
   On *nix like systems add this to /etc/hosts:
+  
   127.0.0.1       container.demo.local
   
   On windows machine add it to c:\windows\system32\drivers\etc\hosts
