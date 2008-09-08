@@ -37,9 +37,10 @@ Running the Sample
   run rake migrate_all
 
 4. Start the servers
-  The container application should run on port 8000
-  The content application should run on port 8001
-  The comment application should run on port 8002
+  * The container application should run on port 8000
+  * The content application should run on port 8001
+  * The comment application should run on port 8002
+  
   You can start these by hand or run rake start\_all
   
 5. Point your browser at container.demo.local
